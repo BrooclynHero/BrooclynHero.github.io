@@ -1,18 +1,49 @@
 ---
 layout: default
+title: Nohomepage
+
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {% for post in site.posts %}
+                <article>
+                <a href = "{{post.url}}">
+                    <h2 class="post-title">
+                    {{ post.title }}
+                    </h2>
+                    {% if post.image != null %}
+                    <img src="{{post.image}}" class="artimg"/>
+                    {% endif %}
+                    <h3 class="post-subtitle">
+                    {{post.description}}
+                    </h3>
+                </a>
+                <p class="post-meta"><!--{{ post.author }}--> 
+                        {% assign m = post.date | date: "%-m" %}
+                        {{ post.date | date: "%-d" }}
+                        {% case m %}
+                          {% when '1' %}Января
+                          {% when '2' %}Февраля
+                          {% when '3' %}Марта
+                          {% when '4' %}Апреля
+                          {% when '5' %}Мая
+                          {% when '6' %}Июня
+                          {% when '7' %}Июля
+                          {% when '8' %}Августа
+                          {% when '9' %}Сентября
+                          {% when '10' %}Октября
+                          {% when '11' %}Ноября
+                          {% when '12' %}Декабря
+                        {% endcase %}
+                        {{ post.date | date: "%Y" }}
+                <!--{{ post.date | date_to_string }}--> </p>   
+            </article> 
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            </div>
+        </div>
+    </div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    {% endfor %}
