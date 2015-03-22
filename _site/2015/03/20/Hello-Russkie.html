@@ -1,0 +1,284 @@
+ <!DOCTYPE html> 
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Amatic+SC: 700' rel='stylesheet' type='text/css'>
+	<title>Belle&Corabelle</title>
+	<link href="/normalize.css" rel="stylesheet">
+	<link rel="icon" href="favicon.png" type="image/x-icon">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+	<style>
+		
+		* {
+			margin: 0 auto;
+			margin-bottom: auto;
+		}
+		html {
+			overflow-x: hidden;
+		}
+		html, body{
+			height: 100%;
+			min-height: 100%;
+  			height: auto !important;
+  			height: 100%;
+  			position: relative;
+		}
+		::selection {
+    		background: rgba(247, 117, 137, 1);
+    	}
+		::-moz-selection {
+    		background: rgba(247, 117, 137, 1);
+		}
+		header {
+			text-align: center;
+			background: url('http://s7.postimg.org/wmr92hfor/H96jup_VXv8c.jpg') fixed no-repeat center center;
+			background-size: cover;
+			color: white;
+			margin-right: -10px;
+		}
+		h1 {
+			color: white;
+			font-size: 100px;
+			font-family: 'Amatic SC', cursive;
+			margin: -20px 0 -20px 0;
+			font-weight: normal; 
+
+		}
+		h2 {
+			color: black;
+		}
+		h3 a {
+			font-family: Helvetica;
+			font-size: 30px;
+			color: rgba(102, 102, 102, 1);
+			margin-bottom: 20px;
+		}
+		h3 a:hover {
+			color: rgba(247, 117, 137, 1);
+			transition: .7s;
+		}
+		h4 {
+			font-family: Helvetica;
+			font-size: 20px;
+			text-align: justify;
+			margin-left: -15px;
+			color: rgba(153, 153, 153, 1);
+		}
+		p {
+			color: black;
+			font-family: Century Gothic;
+			font-size: 17px;
+			/*text-align: justify;*/
+		}
+		.container {
+			min-height: 100%;
+			min-height: 100%;
+  			height: auto !important;
+  			height: 100%;
+		}
+		.avatar img {
+			border: 5px solid white;
+			border-radius: 50%;
+			margin: 20px;
+			width: 200px;
+			height: 200px;
+		}
+		.avatar img:hover {
+			border: 5px solid darkblue;
+			transition: 0.9s;
+		}
+		a {
+			text-decoration: none;
+		}
+		.post-subtitle a:visited {
+			color: black;
+		}
+		
+		li a {
+			
+			color: white;
+			text-decoration: none;
+		}
+		/*.button:hover {
+			background: rgba(0, 0, 255, 0.5);
+		}*/
+		#ul1 {
+			/*padding: 10px;*/
+			margin-top: 20px;
+			background: rgba(0, 0, 0, 0.5);
+			height: 35px;
+
+		}
+		#li1 {
+			/*text-align: center;*/
+			display: inline-block;
+			font-size: 17px;
+			padding: 0 5px 0 5px;
+			
+		}
+		.page {
+			height: auto!important;
+    	min-height: 100vh;
+    	
+		}
+		#li a:hover {
+			background-color: rgba(247, 117, 137, 1);
+		}
+		#ul2{
+			margin-top: 1.5em;
+		}
+		#li2 {
+			padding: 0;
+			display: block;
+			margin: 20px 0 15px -15px;
+			color: rgba(102, 102, 102, 1);
+			font-size: 1em;
+		}
+		#li2 a {
+			color: rgba(102, 102, 102, 1);
+		}
+		article {
+			/*margin: 0 auto;*/
+			padding: 20px;
+			max-width: 800px;
+			margin-top: 20px;
+			display: inline-block;
+			margin-left: 45px;
+
+		}
+		.post-meta {
+			margin-top: 30px;
+			font-family: Helvetica;
+			font-size: 20px;
+			text-align: justify;
+			color: rgba(153, 153, 153, 1);
+
+		}
+		.artimg {
+			margin-top: 20px;
+			height: 360px;
+			width: 640px;
+			border-radius: 1px;
+		}
+		.post-title {
+			font-family: Helvetica;
+			font-size: 30px;
+			color: rgba(102, 102, 102, 1);
+			margin-bottom: 0px;
+		}
+		.post-title:hover {
+			color: rgba(247, 117, 137, 1);
+			transition: .7s;
+		}
+		.post-subtitle {
+			color: black;
+			font-family: Century Gothic;
+			font-size: 17px;
+			margin-top: 10px;
+		}
+
+		footer {
+			height: 50px;
+			background: rgba(0, 0, 0, .9);
+			margin: -9px -9px -9px -9px;
+			margin-top: 50px;
+
+		}
+		.sidebar {
+			display: inline-block;
+			width: 290px;
+			height: 350px;
+			background-color: rgba(242, 242, 242, 1);
+			margin: 70px 25px 0 0;
+			border-radius: 1%;
+			float: right;
+		}
+		.sidebar a:hover {
+			text-decoration: underline;
+		}
+		#navi {
+			height: 100%;
+		}
+		.button {
+			display: block;
+			height: 100%;
+			padding: 7px 12px 5px 12px;
+			border-radius: 3px;
+		
+		}
+		.navig {
+			height: 23px;
+			margin-right: 50px;
+
+		}
+		.navig a:hover {
+			background: rgba(247, 117, 137, 1);
+		}
+		.fotp {
+			float: right;
+			margin: 15px 40px 0 0;
+		}
+		.pluso {
+			margin: 7px 0 0 20px;
+		}
+		.pluso-more{visibility: hidden}
+
+	</style>
+</head>
+<body>
+	<div class="page">
+	<header>
+		<div class="avatar">
+			<a href="http://bellecorabelle.esy.es" id="navi"><img src='http://s27.postimg.org/juuubk8ur/2015_01_20_15_43_15.png' alt="avatar" /></a>
+		</div>
+		<h1>Belle&Corabelle</h1>
+		<nav style="margin-left: 0px">
+		<ul id="ul1">
+			<li id="li1">
+				<div class="navig">
+					<a href="/Store.html" class="button">Галерея</a>
+				</div>
+			</li>
+			<li id="li1">
+				<div class="navig" style="margin-left: 15px">
+					<a href="/archive.html" class="button">Архив</a>
+				</div>
+			</li id="li1">
+		</ul>
+	    </nav>	
+	</header>
+
+    <!-- Post Content -->
+ <article>
+     
+ 
+        
+                    <p>Привет епта чуваки!
+<img src="http://s7.postimg.org/r14bxpxor/H96jup_VXv8c.jpg" alt="ss" />
+russians everywhere around the world
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ 
+ </article>
+
+
+</div>
+    <!-- Footer -->
+     <footer>
+		<a href="http://vk.com/brooclynhero" style="color: white" class="fotp">Связаться со мной</a>
+		<script type="text/javascript">(function() {
+  		if (window.pluso)if (typeof window.pluso.start == "function") return;
+  		if (window.ifpluso==undefined) { window.ifpluso = 1; 																			
+    	var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+    	s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+    	s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+    	h=d[g]('body')[0];
+    	h.appendChild(s);
+  		}})();</script>
+		<div class="pluso" data-background="transparent" data-options="medium,square,line,horizontal,nocounter,theme=04" data-services="vkontakte,facebook,livejournal,google,blogger"></div>
+		
+	</footer> 
