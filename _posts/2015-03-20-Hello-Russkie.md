@@ -1,18 +1,25 @@
 ---
 layout: post
-title: "Тестовая статья"
-description: "Лорем ипсум лалала юл невер си хав зей край"
-author: "Кирилл Макаренко"
-image: 'http://s7.postimg.org/r14bxpxor/H96jup_VXv8c.jpg'
+title: Левиафан
+description: null
+author: Кирилл Макаренко
+image: "http://s7.postimg.org/r14bxpxor/H96jup_VXv8c.jpg"
+published: true
 ---
 
+##Великое русское кино или лента с претензией на интеллектуальность? 
+Для начала следует отметить превосходную игру актеров. Все здесь играют живые, насущные роли. Особую дань хочется отдать жене Сергея.
 
-Привет епта чуваки!
-![ss](http://s7.postimg.org/r14bxpxor/H96jup_VXv8c.jpg)
-russians everywhere around the world
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![](http://s14.postimg.org/b46npzwnl/2015_03_28_14_59_56.png)
+
+У нее в фильме вечно депрессивно-измотанный вид, который так присущ русским женщинам в браке.
+
+Что же еще примечательного в фильме? Довольно неплохая параллель между церковью и вседозволенностью власть имущих. Запах последней витает прямо в каждом эпизоде картины. Фильм породил бурю обсуждений по поводу отношения данной истории к положению дел в стране в целом. По моему мнению, мы наблюдаем в большей степени трагедию маленького человека, нежели прогнившую систему целого государства. 
+
+![](http://s14.postimg.org/5g4ycuhox/51342.jpg)
+
+Хочется написать, что это кино шедеврально, что оно отражает нашу действительность, да не получается. На выходе мы видим замечательно срежессированную историю одного человека, и не более того.  
+
+
+
+
