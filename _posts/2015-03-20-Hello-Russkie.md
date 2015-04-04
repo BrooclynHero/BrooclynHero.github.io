@@ -3,7 +3,7 @@ layout: post
 title: Левиафан
 description: null
 author: Кирилл Макаренко
-image: "http://s7.postimg.org/r14bxpxor/H96jup_VXv8c.jpg"
+image: "https://download.unsplash.com/photo-1413920346627-a4389f0abd61"
 published: true
 ---
 
